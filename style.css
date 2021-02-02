@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+    color:white;
+    background-color: #292929;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%233d3843' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Langar', cursive;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* NAVEGACION */
+
+.main-navegacion{
+    font-size: 15px;
+    align-items: center;
+    padding:0px 20px;
+}
+
+.main-navegacion ul{
+  display:flex;
+  justify-content: space-between;
+}
+
+.main-navegacion ul li{
+    margin: 30px;
+}
+
+
+.main-navegacion ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+ul{
+    list-style: none; /* les saco el estilo que puedan tener */
+}
+
+hr{
+    margin:10px;
+}
+
+/* HEADER */
+
+header{
+    background: url(imagenes/basura.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+    padding: 20px;
+    color:white;
+}
+
+header a{
+    margin:15px;
+}
+
+/* BOTÓN */
+
+.boton{
+    cursor: pointer;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 160px;
+    text-align: center;
+}
+
+/* IMAGENES */
+
+.contenido-imagenes{
+    padding-top: 50px;
+    display: grid; /*grilla para columnas*/
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 25px; /* espaciado interno */
+}
+
+.contenido-imagenes img{
+    height: 180px;
+    width: 100%;
+}
+
+/* BANNER */
+
+.banner{
+    align-items: center;
+    text-align: center;
+    background: url(Imagenes/tech-red.jpg)no-repeat center center/cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.banner a {
+    margin: 20px;
+}
+
+/* REDES SOCIALES */
+
+.redes-sociales{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.redes-sociales p{
+    font-size: 20px;
+}
+
+.redes-sociales a i {
+    margin: 20px;
+    font-size: 30px;
+}
+
+/* FOOTER */
+
+.footer-contenedor{
+    background-color:dimgrey;
+    color:black;
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 12px;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-links ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+
+
