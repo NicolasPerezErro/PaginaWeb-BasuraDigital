@@ -57,12 +57,12 @@ hr{
 /* HEADER */
 
 header{
-    background: url(imagenes/header.jpg) no-repeat center center/cover;
+    background-color:darkgrey;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content:center;
     align-items: center;
-    height: 500px;
+    height: 300px;
     padding: 20px;
     color:white;
 }
