@@ -57,7 +57,7 @@ hr{
 /* HEADER */
 
 header{
-    background-color:darkgrey;
+    
     display: flex;
     flex-direction: column;
     justify-content:center;
